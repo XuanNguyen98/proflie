@@ -5,12 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile Nguyễn Xuân Nguyên</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+
 </head>
 
 <body>
-    <h1>helllo</h1>
+    <!--navigation-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-nguyen-blue ">
+        <!-- <a class="navbar-brand" href="#">Fixed navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button> -->
+        <div class="collapse navbar-collapse " id="navbarCollapse">
+            <ul class="navbar-nav mr-auto mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">EDUCATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">EXPERIENCE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">KNOWLEDGE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FORTFOLIO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Page content-->
+    <div class="container-fluid mt-5">
+        <!--ABOUT-->
+        <section class="pro-section" id="about">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 img-avatar">
+                    <img src="/image/avatar.jpg">
+                </div>
+                <div class="col-md-9 col-sm-12 mt-5 info-content">
+                    <h1 class="">NGUYỄN <span>XUÂN NGUYÊN</span></h1>
+                    <div class="address-mail">
+                        Dist 9 · Ho Chi Minh · 0964088120 · <a
+                            href="xuannguyenit98@gmail.com">xuannguyenit98@gmail.com</a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/xuannguyen.nguyen.12327/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <div class="dowload-pro">
+                        <button type="button" class="btn btn-dowload">
+                            <i class="fas fa-file-download mr-3"></i>Download CV
+                        </button>
+                    </div>
+                </div>
+            </div>
 
+
+        </section>
+    </div>
 </body>
 
 </html>
